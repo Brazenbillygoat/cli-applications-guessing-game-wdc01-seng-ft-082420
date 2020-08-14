@@ -9,7 +9,7 @@ def run_guessing_game
   if cpu_number == user_guess
     
   elsif user_guess == "exit"
-    p "Goodbye!"
+    return "Goodbye!"
   else
     puts "Sorry! The computer guessed #{cpu_number}."
   end
