@@ -8,7 +8,7 @@ def run_guessing_game
   #prompt_user_for_guess
   user_guess = gets.chomp
   binding.pry
-  if cpu_number == user_guess.to_i
+  if user_guess.to_i == cpu_number
     puts "You guessed the correct number!"
   elsif user_guess == "exit"
     puts "Goodbye!"
