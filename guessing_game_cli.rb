@@ -4,7 +4,7 @@ def run_guessing_game
   
   cpu_number = rand(1..6)
   prompt_user_for_guess
-  user_guess = get.chomp
+  user_guess = gets.chomp
   
   if cpu_number == user_guess
     
