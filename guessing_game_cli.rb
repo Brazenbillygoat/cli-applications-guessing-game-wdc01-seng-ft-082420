@@ -5,9 +5,9 @@ require 'pry'
 def run_guessing_game
   
   cpu_number = rand(1..6)
-  user_guess = gets.chomp
+  user_guess = gets
   if user_guess.to_i == cpu_number
-    prints "You guessed the correct number!"
+    p"You guessed the correct number!"
   elsif user_guess == "exit"
     p "Goodbye!"
   else
