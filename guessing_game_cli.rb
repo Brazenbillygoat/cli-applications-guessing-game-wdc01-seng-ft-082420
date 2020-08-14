@@ -1,5 +1,10 @@
 # Code your solution here!
 
+def prompt_user_for_guess
+  puts "I'm thinking of a number from 1-6 including 1 and 6. Can you guess it?"
+end
+
+
 def run_guessing_game
   
   cpu_number = rand(1..6)
@@ -17,6 +22,3 @@ def run_guessing_game
 end
 
 
-def prompt_user_for_guess
-  puts "I'm thinking of a number from 1-6 including 1 and 6. Can you guess it?"
-end
