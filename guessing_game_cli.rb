@@ -1,8 +1,5 @@
 # Code your solution here!
 require 'pry'
-def prompt_user_for_guess
-  puts "I'm thinking of a number from 1-6 including 1 and 6. Can you guess it?"
-end
 
 
 def run_guessing_game
